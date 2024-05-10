@@ -667,7 +667,7 @@ class Exploit():
         # reason, this causes scheduling on CPU 0 at some point, which makes
         # the next allocation use the same per-CPU cache.
         for i in range(self.PIN_NUM):
-            if i % 0x100 == 0:
+            if i % 0x200 == 0: # make the target more busy
                 print('[*] Pinning to CPU 0...{}%'.format(100 * i //
                                                           self.PIN_NUM),
                       end='\r',
@@ -681,8 +681,8 @@ class Exploit():
 
         print('[+] Pinning to CPU 0...done')
 
-        # LCP fails sometimes without the wait
-        sleep(1)
+        # wait 20 secs to continue the pppoe hack because the system not loaded all modules  
+        sleep(20) 
 
         # Corrupt in6_llentry object
         overflow_lle = self.build_overflow_lle()
