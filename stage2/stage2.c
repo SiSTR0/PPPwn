@@ -28,9 +28,10 @@
 #define PS4_PAGE_SIZE 0x4000
 #define ROUND_PG(x) (((x) + (PS4_PAGE_SIZE - 1)) & ~(PS4_PAGE_SIZE - 1))
 
-#define PAYLOAD_NAME "goldhen.bin"
-#define PAYLOAD_EXT_PATH "/mnt/usb0/" PAYLOAD_NAME
-#define PAYLOAD_INT_PATH "/data/GoldHEN/payloads/" PAYLOAD_NAME
+//not only goldhen will exist , making my one
+#define PAYLOAD_NAME "payload.bin"
+#define PAYLOAD_EXT_PATH "/mnt/usb0/payload.bin" PAYLOAD_NAME
+#define PAYLOAD_INT_PATH "/data/payloads/" PAYLOAD_NAME
 
 // by OSM-Made
 typedef struct {
