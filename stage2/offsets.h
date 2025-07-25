@@ -31,6 +31,16 @@
 #define kdlsym_addr_copyinstr_patch2 0xffffffff8222f73f
 #define kdlsym_addr_copyinstr_patch3 0xffffffff8222f770
 
+#define kdlsym_addr_kernel_map 0xffffffff843c8ee0
+#define kdlsym_addr_kmem_alloc 0xffffffff823170f0
+#define kdlsym_addr_kmem_free 0xffffffff823172c0
+
+#define kdlsym_addr_sceKernelSendNotificationRequest 0xffffffff8230c900
+#define kdlsym_addr_vsprintf 0xffffffff822bca00
+#define kdlsym_addr_snprintf 0xffffffff822bca30
+#define kdlsym_addr_strlen 0xffffffff82293ff0
+
+
 #elif (FIRMWARE == 750 || FIRMWARE == 751 || FIRMWARE == 755) // FW 7.50 / FW 7.51 / FW 7.55
 
 #define kdlsym_addr_Xfast_syscall 0xffffffff822001c0
@@ -53,6 +63,16 @@
 #define kdlsym_addr_copyinstr_patch1 0xffffffff8248fef3
 #define kdlsym_addr_copyinstr_patch2 0xffffffff8248feff
 #define kdlsym_addr_copyinstr_patch3 0xffffffff8248ff30
+
+#define kdlsym_addr_kernel_map 0xffffffff843405b8
+#define kdlsym_addr_kmem_alloc 0xffffffff823753e0
+#define kdlsym_addr_kmem_free 0xffffffff823755b0
+
+#define kdlsym_addr_sceKernelSendNotificationRequest 0xffffffff82659fb0
+#define kdlsym_addr_vsprintf 0xffffffff8246fa10
+#define kdlsym_addr_snprintf 0xffffffff8246fa40
+#define kdlsym_addr_strlen 0xffffffff824e8bc0
+
 
 #elif (FIRMWARE == 800 || FIRMWARE == 801 || FIRMWARE == 803) // FW 8.00 / 8.01 / 8.03
 
@@ -77,6 +97,15 @@
 #define kdlsym_addr_copyinstr_patch2 0xffffffff8245e8bf
 #define kdlsym_addr_copyinstr_patch3 0xffffffff8245e8f0
 
+#define kdlsym_addr_kernel_map 0xffffffff83d243e0
+#define kdlsym_addr_kmem_alloc 0xffffffff8221b3f0
+#define kdlsym_addr_kmem_free 0xffffffff8221b5c0
+
+#define kdlsym_addr_sceKernelSendNotificationRequest 0xffffffff823778c0
+#define kdlsym_addr_vsprintf 0xffffffff82630db0
+#define kdlsym_addr_snprintf 0xffffffff82630de0
+#define kdlsym_addr_strlen 0xffffffff824f6090
+
 
 #elif (FIRMWARE == 850 || FIRMWARE == 852) // FW 8.50 / 8.52
 
@@ -100,6 +129,15 @@
 #define kdlsym_addr_copyinstr_patch1 0xffffffff825a47e3
 #define kdlsym_addr_copyinstr_patch2 0xffffffff825a47ef
 #define kdlsym_addr_copyinstr_patch3 0xffffffff825a4820
+
+#define kdlsym_addr_kernel_map 0xffffffff83e64228
+#define kdlsym_addr_kmem_alloc 0xffffffff824199a0
+#define kdlsym_addr_kmem_free 0xffffffff82419b70
+
+#define kdlsym_addr_sceKernelSendNotificationRequest 0xffffffff8221bf10
+#define kdlsym_addr_vsprintf 0xffffffff8235d840
+#define kdlsym_addr_snprintf 0xffffffff8235d870
+#define kdlsym_addr_strlen 0xffffffff82470c40
 
 
 #elif FIRMWARE == 900 // FW 9.00
@@ -160,7 +198,7 @@
 
 #define kdlsym_addr_kernel_map 0xffffffff84464d48
 #define kdlsym_addr_kmem_alloc 0xffffffff8257a070
-#define kdlsym_addr_kmem_free 0xffffffff8257a23b
+#define kdlsym_addr_kmem_free 0xffffffff8257a240
 
 #define kdlsym_addr_sceKernelSendNotificationRequest 0xffffffff8259fd30
 #define kdlsym_addr_vsprintf 0xffffffff822b7cb0
@@ -190,14 +228,14 @@
 #define kdlsym_addr_copyinstr_patch2 0xffffffff824023bf
 #define kdlsym_addr_copyinstr_patch3 0xffffffff824023f0
 
-#define kdlsym_addr_kernel_map 0xFFFFFFFF84347830
-#define kdlsym_addr_kmem_alloc 0xFFFFFFFF823889D0
-#define kdlsym_addr_kmem_free 0xFFFFFFFF82388BA0
+#define kdlsym_addr_kernel_map 0xffffffff84347830
+#define kdlsym_addr_kmem_alloc 0xffffffff823889d0
+#define kdlsym_addr_kmem_free 0xffffffff82388ba0
 
-#define kdlsym_addr_sceKernelSendNotificationRequest 0xFFFFFFFF82663060
-#define kdlsym_addr_vsprintf 0xFFFFFFFF82405740
-#define kdlsym_addr_snprintf 0xFFFFFFFF82405770
-#define kdlsym_addr_strlen 0xFFFFFFFF825F1980
+#define kdlsym_addr_sceKernelSendNotificationRequest 0xffffffff82663060
+#define kdlsym_addr_vsprintf 0xffffffff82405740
+#define kdlsym_addr_snprintf 0xffffffff82405770
+#define kdlsym_addr_strlen 0xffffffff825f1980
 
 
 #elif (FIRMWARE == 1000 || FIRMWARE == 1001) // FW 10.00 / 10.01
