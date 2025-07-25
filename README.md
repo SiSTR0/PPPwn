@@ -177,13 +177,8 @@ This loader only supports payloads with a kernel entrypoint.
 The custom version of stage2 first looks for the payload in the root directory of the USB drive, and if found, it is copied to the internal HDD at this path: `/data/GoldHEN/payloads/goldhen.bin`. The internal payload is then loaded and is no longer needed on the external USB drive.
 
 Supported versions are:
-- FW 9.00
-- FW 9.03
-- FW 9.60
-- FW 10.00 / 10.01
-- FW 10.50 / 10.70 / 10.71
+- FW 7.00 / 7.01 / 7.02 / 7.50 / 7.51 / 7.55
+- FW 8.00 / 8.01 / 8.03 / 8.50 / 8.52
+- FW 9.00 / 9.03 / 9.04 / 9.50 / 9.51 / 9.60
+- FW 10.00 / 10.01 / 10.50 / 10.70 / 10.71
 - FW 11.00
-
-Next versions are:
-- FW 7.XX
-- TBD
