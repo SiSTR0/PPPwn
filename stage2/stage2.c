@@ -398,6 +398,12 @@ void stage2(void) {
   uint64_t cr0 = rcr0();
   load_cr0(cr0 & ~CR0_WP);
 
+  // Enable UART
+  *(uint8_t *)kdlsym(uart_patch) = 0;
+
+  // Disable veri
+  *(uint16_t *)kdlsym(veri_patch) = 0x9090;
+
   // Allow syscalls everywhere
   *(uint32_t *)kdlsym(amd_syscall_patch1) = 0;
   *(uint16_t *)kdlsym(amd_syscall_patch2) = 0x9090;
