@@ -40,8 +40,6 @@
 #define kdlsym_addr_snprintf 0xffffffff822bca30
 #define kdlsym_addr_strlen 0xffffffff82293ff0
 
-#define kdlsym_addr_uart_patch 0xffffffff83c6eaa0
-#define kdlsym_addr_veri_patch 0xffffffff8283acce
 
 #elif (FIRMWARE == 750 || FIRMWARE == 751 || FIRMWARE == 755) // FW 7.50 / FW 7.51 / FW 7.55
 
@@ -75,8 +73,6 @@
 #define kdlsym_addr_snprintf 0xffffffff8246fa40
 #define kdlsym_addr_strlen 0xffffffff824e8bc0
 
-#define kdlsym_addr_uart_patch 0xffffffff83764910
-#define kdlsym_addr_veri_patch 0xffffffff82837394
 
 #elif (FIRMWARE == 800 || FIRMWARE == 801 || FIRMWARE == 803) // FW 8.00 / 8.01 / 8.03
 
@@ -110,8 +106,6 @@
 #define kdlsym_addr_snprintf 0xffffffff82630de0
 #define kdlsym_addr_strlen 0xffffffff824f6090
 
-#define kdlsym_addr_uart_patch 0xffffffff8375d190
-#define kdlsym_addr_veri_patch 0xffffffff8282d254
 
 #elif (FIRMWARE == 850 || FIRMWARE == 852) // FW 8.50 / 8.52
 
@@ -145,8 +139,6 @@
 #define kdlsym_addr_snprintf 0xffffffff8235d870
 #define kdlsym_addr_strlen 0xffffffff82470c40
 
-#define kdlsym_addr_uart_patch 0xffffffff8373ae88
-#define kdlsym_addr_veri_patch 0xffffffff82824674
 
 #elif FIRMWARE == 900 // FW 9.00
 
@@ -180,8 +172,6 @@
 #define kdlsym_addr_snprintf 0xffffffff822b7d30
 #define kdlsym_addr_strlen 0xffffffff8250f450
 
-#define kdlsym_addr_uart_patch 0xffffffff8372bf60
-#define kdlsym_addr_veri_patch 0xffffffff82826874
 
 #elif (FIRMWARE == 903 || FIRMWARE == 904) // FW 9.03 / 9.04
 
@@ -215,8 +205,6 @@
 #define kdlsym_addr_snprintf 0xffffffff822b7ce0
 #define kdlsym_addr_strlen 0xffffffff8250f0f0
 
-#define kdlsym_addr_uart_patch 0xffffffff83727f60
-#define kdlsym_addr_veri_patch 0xffffffff82824834
 
 #elif (FIRMWARE == 950 || FIRMWARE == 951 || FIRMWARE == 960) // FW 9.50 / 9.51 / 9.60
 
@@ -249,8 +237,6 @@
 #define kdlsym_addr_snprintf 0xffffffff82405770
 #define kdlsym_addr_strlen 0xffffffff825f1980
 
-#define kdlsym_addr_uart_patch 0xffffffff83c50be0
-#define kdlsym_addr_veri_patch 0xffffffff82824ae4
 
 #elif (FIRMWARE == 1000 || FIRMWARE == 1001) // FW 10.00 / 10.01
 
@@ -283,8 +269,6 @@
 #define kdlsym_addr_snprintf 0xffffffff822c53f0
 #define kdlsym_addr_strlen 0xffffffff824e0340
 
-#define kdlsym_addr_uart_patch 0xffffffff83c78a78
-#define kdlsym_addr_veri_patch 0xffffffff8281e864
 
 #elif (FIRMWARE == 1050 || FIRMWARE == 1070 || FIRMWARE == 1071) // FW 10.50 / 10.70 / 10.71
 
@@ -317,8 +301,6 @@
 #define kdlsym_addr_snprintf 0xffffffff82651180
 #define kdlsym_addr_strlen 0xffffffff82360da0
 
-#define kdlsym_addr_uart_patch 0xffffffff83c3bca0
-#define kdlsym_addr_veri_patch 0xffffffff82827db4
 
 #elif FIRMWARE == 1100 // FW 11.00
 
@@ -351,8 +333,6 @@
 #define kdlsym_addr_snprintf 0xffffffff824fced0
 #define kdlsym_addr_strlen 0xffffffff8241dc40
 
-#define kdlsym_addr_uart_patch 0xffffffff8372cff8
-#define kdlsym_addr_veri_patch 0xffffffff82823f64
 
 #else
 
